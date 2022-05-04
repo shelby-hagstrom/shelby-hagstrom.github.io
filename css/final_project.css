@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin:0;
+  padding:0; 
 }
 
 body {
@@ -10,7 +12,15 @@ body {
   margin: 0 auto;
 }
 
-/* The navigation bar */
+p{
+  padding: 2%;
+}
+
+ul{
+  list-style: none;
+  padding-bottom: 5%;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #2F948D;
@@ -54,10 +64,6 @@ body {
   padding: 2%;
 }
 
-ul{
-  list-style: none;
-}
-
 .specializations-group {
   display: inline-block;
   float: left;
@@ -80,17 +86,17 @@ ul{
 }
 
 #imagetext{
-  height: 100px;
+  height: 50%;
+  width: 50%;
   border: 5px solid #717e82;
-  margin: auto;
-  width: 550px;
+  margin: 0 auto;
   text-align: center;
-  padding: 1%;
+  padding: 2%;
 }
 
 .example-image{
   width: 100%;
-  border: 5px solid #717e82;
+  border: 5px solid #717E82;
 }
 
 #connect{
