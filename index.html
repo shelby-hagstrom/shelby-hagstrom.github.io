@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Shelby Hagstrom's Website</title>
+   <link rel="stylesheet" href="css/final_project.css">
+   <link rel="stylesheet" href="css/lightbox.min.css">
+   <script src="https://kit.fontawesome.com/db9689661c.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="js/preview.js"></script>
+   <script src="js/toggle.js"></script>
+</head>
+<body>
+ <div class="navbar" id="mynavbar">
+    <a href="#home">Home</a>
+    <a href="#specializations">Specializations</a>
+    <a href="#projects">Projects</a>
+    <a href="#photography">Photography</a>
+    <a href="#connect">Connect</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <div class="main">
+    <div id="home">
+      <h1>Welcome to Shelby Hagstrom's Website!</h1>
+      <p>My name is Shelby Hagstrom. I am a Business Systems Analyst who loves learning new skills, traveling to new places, and likes to think of myself as a budding photographer.
+      </p>
+    </div>
+    <div id="specializations">
+      <h1>Specializations</h1>
+      <p>After working closely with Software Engineers for since January 2019, I decided to take it upon myself to learn some coding, too, so that I could get a more basic understanding of what they do. I also completed the Google Data Analytics Certificate last year, I believed they would help me grow as a professional and would be a good complement to my role. If you would like to learn more about these Specializations, both available through Coursera, feel free to click on the links below.</p>
+        <ul class="specializations-group">
+          <li><a href="https://www.coursera.org/specializations/web-design?" target="_blank">Web Design for Everybody: Basics of Web Development & Coding Specialization</a></li>
+          <li><a href="https://www.coursera.org/professional-certificates/google-data-analytics" target="_blank">Google Data Analytics Professional Certificate</a></li>
+        </ul>  
+    </div>  
+    <br>
+      <div id="projects">
+      <h1>Projects</h1>
+      <p>Click below to be brought to my final projects for each of the courses.</p>
+        <ul class="projects-group">
+          <li><a href="https://codepen.io/shelby_hagstrom/pen/mdpodXB" target="_blank">HTML</a></li>
+          <li><a href="https://codepen.io/shelby_hagstrom/pen/qBpvBYa" target="_blank">CSS</a></li>
+          <li><a href="https://codepen.io/shelby_hagstrom/pen/KKZEwpP" target="_blank">JavaScript</a></li>
+          <li><a href="https://github.com/shelby-hagstrom/Google-Data-Analytics-Capstone" target="_blank">Google Data Analytics Capstone</a></li>
+        </ul>  
+    </div>
+    <div id="photography">
+      <h1>Photography</h1>
+      <p>I started traveling a bit more in earnest in 2017. These are some of my favorite photos from a couple of the trips, and one of my favorites from Chicago, the city I call home.</p>
+          <div id="imagetext">Hover over an image for a description.<br>Click on an image to view it in a larger window.</div>
+          <br>
+          <div class="image-row">
+            <div class="image-set">
+              <a class="example-image-link" href="images/LAGI4717.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+                <img class="example-image" src="images/LAGI4717.jpg" alt="May 2017: Brooklyn Bridge at Golden Hour" onmouseover = "showproperty(this)" onmouseout = "unDo()"></a>
+              <a class="example-image-link" href="images/IMG_4317.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard.">
+                <img class="example-image" src="images/IMG_4317.jpg" alt="April 2019: Cherry Blossoms in D.C." onmouseover = "showproperty(this)" onmouseout = "unDo()"></a>
+              <a class="example-image-link" href="images/IMG_9777.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing.">
+                <img class="example-image" src="images/IMG_9777.jpg" alt="May 2021: Sunset at Arches National Park" onmouseover = "showproperty(this)" onmouseout = "unDo()"></a>
+              <a class="example-image-link" href="images/F19A8862.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close.">
+                <img class="example-image" src="images/F19A8862.jpg" alt="April 2022: Lincoln Park Zoo in Chicago" onmouseover = "showproperty(this)" onmouseout = "unDo()"></a>
+            </div>
+          </div>
+          <script src="js/lightbox-plus-jquery.min.js"></script>
+    </div>
+    <div id="connect">
+      <h1>Connect</h1>
+      <div class="connect-icons">
+        <a href="https://www.linkedin.com/in/shelby-hagstrom/" class="linked" target="_blank">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/shelby-hagstrom" class="git" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="https://codepen.io/your-work" class="codepen" target="_blank">
+          <i class="fab fa-codepen" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/shelby.theresa/" class="instagram" target="_blank">
+         <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+       </a>
+     </div>
+    </div>
+  </div>
+</body>

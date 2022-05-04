@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F1F1FF;
+  font-family: "Open Sans", Verdana, Helvetica, Arial, serif;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2F948D;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #F2F2F2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #D3D3D3;
+  color: #023020;
+}
+
+.navbar a:active {
+  background-color: #04AA6D;
+  color: #FFFFFF;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+.main {
+  margin-top: 152px;
+}
+
+#home{
+  padding: 2%;
+}
+
+#specializations{
+  padding: 2%;
+}
+
+ul{
+  list-style: none;
+}
+
+.specializations-group {
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+
+#projects{
+  padding: 2%;
+}
+
+.projects-group {
+  display: inline-block; 
+  float: left;
+  width: 100%;
+}
+
+#photography{
+  padding: 2%;
+  width: 100%;
+}
+
+#imagetext{
+  height: 100px;
+  border: 5px solid #717e82;
+  margin: auto;
+  width: 550px;
+  text-align: center;
+  padding: 1%;
+}
+
+.example-image{
+  width: 100%;
+  border: 5px solid #717e82;
+}
+
+#connect{
+  padding: 2%;
+}
+
+.connect-icons a{
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 1%;
+}
+
+.linked, .git, .codepen, .instagram{
+background: #D3D3D3;
+border-radius: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}  
+
+@media screen and (min-width:768px){
+  .main {
+    margin-top: 152px;
+   }
+
+  .specializations-group a {
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+
+  .projects-group a {
+    display: inline-block;
+    float: left;
+    width: 25%;
+  }
+
+  .example-image{
+    width: 20%;
+    border: 5px solid #717E82;
+  }
+}
+
